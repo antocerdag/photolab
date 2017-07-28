@@ -53,7 +53,7 @@
 
 .bajada-pequenio{
 	font-weight: 100;
-    font-size: 12px;
+    font-size: 14px;
     width: 66%;
     line-height: 185%;
 }
@@ -69,10 +69,19 @@
 /* SECION THREE*/
 .three{
 	width:100%;
-	height:400px;
+    height: 456px;
 }
 .phone{
 	background-color:$blanco;
+}
+
+.boton-learn{
+	background-color:$color_verde;
+    width: 29%;
+    height: 41px;
+    border-radius: 3px;
+    border-color: transparent;
+    color: white;
 }
 
 /* SECTION FOUR */
@@ -81,7 +90,22 @@
 	height:400px;
 	background-color:$gris;
 }
+.margin-top1{
+	margin-top: 13%;
+}
+.margin-top{
+	margin-top: 7%;
+}
 /* SECTION FIVE */
 .five{
 	background-image:$img2;
+	width: 100%;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.titulo-seccion{
+	color: white;
+    margin-top: 170px;
 }
