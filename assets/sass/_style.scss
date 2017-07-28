@@ -1,0 +1,87 @@
+*{
+	font-family: 'Nunito', sans-serif;
+	margin:0;
+	padding:0;
+}
+
+.navbar-nav {
+   width: 100%;
+   text-align: center;
+   li {
+     float: none;
+     display: inline-block;
+   }
+}
+
+.navbar-default{
+	background-color:transparent;
+	border-color:transparent;
+}
+
+.one{
+	background-image:$img1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 746px;
+}
+
+/* SECTION TWO */
+
+.two{
+	background-color:$gris;
+	background-image:$imghand;
+	width:100%;
+	height:456px;
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+    background-position-x: 506px;
+    background-size: inherit;
+}
+
+.titulo-pequenio{
+	color:$color_verde;
+	font-size: 20px;
+    margin-top: 16%;
+    font-weight: 700;
+    width: 69%;
+	line-height: 134%;
+}
+
+.bajada-pequenio{
+	font-weight: 100;
+    font-size: 12px;
+    width: 66%;
+    line-height: 185%;
+}
+
+.boton-get{
+	background-color:$color_verde;
+    width: 29%;
+    height: 41px;
+    border-radius: 3px;
+    border-color: transparent;
+    color: white;
+}
+/* SECION THREE*/
+.three{
+	width:100%;
+	height:400px;
+}
+.phone{
+	background-color:$blanco;
+}
+
+/* SECTION FOUR */
+.four{
+	width:100%;
+	height:400px;
+	background-color:$gris;
+}
+/* SECTION FIVE */
+.five{
+	background-image:$img2;
+}
